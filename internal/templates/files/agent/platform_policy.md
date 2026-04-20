@@ -1,0 +1,5 @@
+- OS: {{ .System }}
+- File operations go through `read_file`, `write_file`, `edit_file`, `list_dir`.
+- Shell commands run via `exec` inside the workspace; long-running commands should be broken up.
+- Network access is allowed through `web_search` / `web_fetch`.
+- You cannot make your own UI; all user-visible output is via replies or the `message` tool.

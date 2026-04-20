@@ -1,0 +1,44 @@
+---
+description: Enforce modular, decoupled, extensible project structure
+alwaysApply: true
+---
+
+# Modular Architecture
+
+在修改或新增代码时，优先保证模块化、低耦合、可扩展：
+
+- 单个模块只负责一类明确职责，避免把业务逻辑、IO、配置和编排混在一起。
+- 依赖抽象而不是具体实现；跨模块协作优先通过清晰接口、参数或小型适配层完成。
+- 避免隐式共享状态、跨层直接调用和“顺手复用”内部细节。
+- 新能力优先以新增模块、实现或组合方式扩展，尽量不要通过堆叠 `if/else` 污染原有核心流程。
+- 函数和文件保持聚焦；当一个文件承担多种职责时，主动建议拆分。
+- 引入第三方服务、存储、模型或协议时，先隔离在边界层，方便后续替换。
+
+## Preferred Patterns
+
+```python
+# bad
+def handle_message(msg):
+    config = load_config()
+    raw = requests.post(API_URL, json=msg).json()
+    db.save(raw)
+    return format_reply(raw, config)
+
+# good
+def handle_message(msg, client, repository, formatter, config):
+    raw = client.send(msg)
+    repository.save(raw)
+    return formatter.format(raw, config)
+```
+
+```python
+# bad
+if provider == "openai":
+    ...
+elif provider == "anthropic":
+    ...
+
+# good
+provider = provider_registry.get(name)
+result = provider.generate(prompt)
+```

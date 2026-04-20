@@ -1,0 +1,11 @@
+bin/
+*.test
+*.out
+coverage.txt
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# do not include the upstream python reference
+nanobot/

@@ -1,0 +1,90 @@
+{
+  "agents": {
+    "defaults": {
+      "workspace": "~/.nanobot/workspace",
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "temperature": 0.7,
+      "maxTokens": 4096,
+      "maxToolIterations": 30,
+      "contextWindowTokens": 128000,
+      "reasoningEffort": "",
+      "timezone": "Asia/Shanghai",
+      "sessionTtlMinutes": 0,
+      "unifiedSession": false,
+      "disabledSkills": [],
+      "dream": {
+        "intervalH": 12,
+        "maxBatchSize": 60,
+        "maxIterations": 10
+      }
+    }
+  },
+  "channels": {
+    "sendProgress": true,
+    "sendToolHints": true,
+    "sendMaxRetries": 3,
+    "websocket": {
+      "enabled": true,
+      "host": "127.0.0.1",
+      "port": 18790,
+      "path": "/ws",
+      "streaming": true,
+      "pingIntervalS": 20,
+      "pingTimeoutS": 20,
+      "maxMessageBytes": 1048576
+    },
+    "api": {
+      "enabled": true,
+      "streaming": true
+    }
+  },
+  "providers": {
+    "openai": {
+      "apiKey": "${OPENAI_API_KEY}"
+    },
+    "anthropic": {
+      "apiKey": "${ANTHROPIC_API_KEY}"
+    },
+    "openrouter": {
+      "apiKey": "${OPENROUTER_API_KEY}"
+    }
+  },
+  "api": {
+    "host": "127.0.0.1",
+    "port": 8900,
+    "timeout": 120
+  },
+  "gateway": {
+    "host": "127.0.0.1",
+    "port": 18790,
+    "heartbeat": {
+      "enabled": true,
+      "intervalS": 1800,
+      "keepRecentMessages": 8
+    }
+  },
+  "tools": {
+    "restrictToWorkspace": true,
+    "web": {
+      "enable": true,
+      "provider": "duckduckgo"
+    },
+    "exec": {
+      "enable": true,
+      "timeoutS": 300,
+      "maxOutputChars": 10000,
+      "sandbox": false,
+      "denyPatterns": [
+        "rm -rf /",
+        "mkfs",
+        "> /dev/sd"
+      ]
+    },
+    "my": {
+      "enable": true
+    },
+    "mcpServers": {},
+    "ssrfWhitelist": []
+  }
+}
