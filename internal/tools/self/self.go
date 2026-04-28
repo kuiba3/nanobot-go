@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/hkuds/nanobot-go/internal/tools"
+	"github.com/kuiba3/nanobot-go/internal/tools"
 )
 
 // Accessor abstracts the agent loop's self-facing state. Concrete loops

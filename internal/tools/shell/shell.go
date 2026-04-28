@@ -13,9 +13,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hkuds/nanobot-go/internal/config"
-	"github.com/hkuds/nanobot-go/internal/security"
-	"github.com/hkuds/nanobot-go/internal/tools"
+	"github.com/kuiba3/nanobot-go/internal/config"
+	"github.com/kuiba3/nanobot-go/internal/security"
+	"github.com/kuiba3/nanobot-go/internal/tools"
 )
 
 // Options controls exec behavior.

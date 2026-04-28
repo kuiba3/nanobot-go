@@ -89,9 +89,12 @@ type APIChannelConf struct {
 type ProvidersConfig map[string]ProviderCredentials
 
 // ProviderCredentials is what users fill per provider in config.json.
+// apiKey and apiBase use plain json tags (no omitempty) so that `nanobot onboard`
+// and Save round-trips can keep these fields visible for hand-editing; empty
+// apiBase is ignored at runtime in favor of the provider's built-in default.
 type ProviderCredentials struct {
-	APIKey       string            `json:"apiKey,omitempty"`
-	APIBase      string            `json:"apiBase,omitempty"`
+	APIKey       string            `json:"apiKey"`
+	APIBase      string            `json:"apiBase"`
 	ExtraHeaders map[string]string `json:"extraHeaders,omitempty"`
 }
 

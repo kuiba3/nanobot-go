@@ -41,13 +41,16 @@
   },
   "providers": {
     "openai": {
-      "apiKey": "${OPENAI_API_KEY}"
+      "apiKey": "${OPENAI_API_KEY}",
+      "apiBase": "https://api.openai.com/v1"
     },
     "anthropic": {
-      "apiKey": "${ANTHROPIC_API_KEY}"
+      "apiKey": "${ANTHROPIC_API_KEY}",
+      "apiBase": "https://api.anthropic.com"
     },
     "openrouter": {
-      "apiKey": "${OPENROUTER_API_KEY}"
+      "apiKey": "${OPENROUTER_API_KEY}",
+      "apiBase": "https://openrouter.ai/api/v1"
     }
   },
   "api": {

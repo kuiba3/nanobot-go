@@ -3,7 +3,7 @@ package base
 import (
 	"context"
 
-	"github.com/hkuds/nanobot-go/internal/bus"
+	"github.com/kuiba3/nanobot-go/internal/bus"
 )
 
 // CLIChannel is a simple in-process channel used by the `agent` interactive

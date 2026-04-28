@@ -6,14 +6,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hkuds/nanobot-go/internal/bus"
-	"github.com/hkuds/nanobot-go/internal/command"
-	"github.com/hkuds/nanobot-go/internal/ctxbuilder"
-	"github.com/hkuds/nanobot-go/internal/memory"
-	"github.com/hkuds/nanobot-go/internal/provider"
-	"github.com/hkuds/nanobot-go/internal/session"
-	"github.com/hkuds/nanobot-go/internal/skills"
-	"github.com/hkuds/nanobot-go/internal/tools"
+	"github.com/kuiba3/nanobot-go/internal/bus"
+	"github.com/kuiba3/nanobot-go/internal/command"
+	"github.com/kuiba3/nanobot-go/internal/ctxbuilder"
+	"github.com/kuiba3/nanobot-go/internal/memory"
+	"github.com/kuiba3/nanobot-go/internal/provider"
+	"github.com/kuiba3/nanobot-go/internal/session"
+	"github.com/kuiba3/nanobot-go/internal/skills"
+	"github.com/kuiba3/nanobot-go/internal/tools"
 )
 
 // fakeProvider returns a scripted sequence of responses.

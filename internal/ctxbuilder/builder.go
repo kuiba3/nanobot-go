@@ -10,11 +10,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hkuds/nanobot-go/internal/memory"
-	"github.com/hkuds/nanobot-go/internal/provider"
-	"github.com/hkuds/nanobot-go/internal/session"
-	"github.com/hkuds/nanobot-go/internal/skills"
-	"github.com/hkuds/nanobot-go/internal/templates"
+	"github.com/kuiba3/nanobot-go/internal/memory"
+	"github.com/kuiba3/nanobot-go/internal/provider"
+	"github.com/kuiba3/nanobot-go/internal/session"
+	"github.com/kuiba3/nanobot-go/internal/skills"
+	"github.com/kuiba3/nanobot-go/internal/templates"
 )
 
 // Builder produces the system prompt + ordered messages for a request.

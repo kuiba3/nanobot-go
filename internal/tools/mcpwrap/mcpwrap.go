@@ -5,8 +5,8 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/hkuds/nanobot-go/internal/mcp"
-	"github.com/hkuds/nanobot-go/internal/tools"
+	"github.com/kuiba3/nanobot-go/internal/mcp"
+	"github.com/kuiba3/nanobot-go/internal/tools"
 )
 
 // Wrap produces Tool instances for every tool advertised by the server, prefixed

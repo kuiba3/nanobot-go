@@ -11,10 +11,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hkuds/nanobot-go/internal/ctxbuilder"
-	"github.com/hkuds/nanobot-go/internal/hook"
-	"github.com/hkuds/nanobot-go/internal/provider"
-	"github.com/hkuds/nanobot-go/internal/tools"
+	"github.com/kuiba3/nanobot-go/internal/ctxbuilder"
+	"github.com/kuiba3/nanobot-go/internal/hook"
+	"github.com/kuiba3/nanobot-go/internal/provider"
+	"github.com/kuiba3/nanobot-go/internal/tools"
 )
 
 // Spec is the input bundle for a single agent turn.

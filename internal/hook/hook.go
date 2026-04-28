@@ -5,7 +5,7 @@ import (
 	"context"
 	"strings"
 
-	"github.com/hkuds/nanobot-go/internal/provider"
+	"github.com/kuiba3/nanobot-go/internal/provider"
 )
 
 // Context is the per-iteration context passed to hooks. Mirrors Python

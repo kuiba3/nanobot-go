@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/hkuds/nanobot-go/internal/bus"
-	"github.com/hkuds/nanobot-go/internal/tools"
+	"github.com/kuiba3/nanobot-go/internal/bus"
+	"github.com/kuiba3/nanobot-go/internal/tools"
 )
 
 // SendFunc is injected by the loop so the tool can emit outbound messages.

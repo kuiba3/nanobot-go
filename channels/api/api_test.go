@@ -13,16 +13,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hkuds/nanobot-go/channels/base"
-	"github.com/hkuds/nanobot-go/internal/bus"
-	"github.com/hkuds/nanobot-go/internal/command"
-	"github.com/hkuds/nanobot-go/internal/ctxbuilder"
-	"github.com/hkuds/nanobot-go/internal/loop"
-	"github.com/hkuds/nanobot-go/internal/memory"
-	openaiprov "github.com/hkuds/nanobot-go/internal/provider/openai"
-	"github.com/hkuds/nanobot-go/internal/session"
-	"github.com/hkuds/nanobot-go/internal/skills"
-	"github.com/hkuds/nanobot-go/internal/tools"
+	"github.com/kuiba3/nanobot-go/channels/base"
+	"github.com/kuiba3/nanobot-go/internal/bus"
+	"github.com/kuiba3/nanobot-go/internal/command"
+	"github.com/kuiba3/nanobot-go/internal/ctxbuilder"
+	"github.com/kuiba3/nanobot-go/internal/loop"
+	"github.com/kuiba3/nanobot-go/internal/memory"
+	openaiprov "github.com/kuiba3/nanobot-go/internal/provider/openai"
+	"github.com/kuiba3/nanobot-go/internal/session"
+	"github.com/kuiba3/nanobot-go/internal/skills"
+	"github.com/kuiba3/nanobot-go/internal/tools"
 )
 
 // scriptedLLM stands in for a real OpenAI endpoint.

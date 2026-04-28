@@ -13,9 +13,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hkuds/nanobot-go/internal/memory"
-	"github.com/hkuds/nanobot-go/internal/provider"
-	"github.com/hkuds/nanobot-go/internal/runner"
+	"github.com/kuiba3/nanobot-go/internal/memory"
+	"github.com/kuiba3/nanobot-go/internal/provider"
+	"github.com/kuiba3/nanobot-go/internal/runner"
 )
 
 // Options configures Dream.

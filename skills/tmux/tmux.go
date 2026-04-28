@@ -1,7 +1,7 @@
 // Package tmux provides the "tmux" skill documentation and helper scripts.
 package tmux
 
-import skills "github.com/hkuds/nanobot-go/skills"
+import skills "github.com/kuiba3/nanobot-go/skills"
 
 func init() { skills.Register(Skill{}) }
 

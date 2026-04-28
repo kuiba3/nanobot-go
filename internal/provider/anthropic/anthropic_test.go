@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hkuds/nanobot-go/internal/provider"
+	"github.com/kuiba3/nanobot-go/internal/provider"
 )
 
 func TestChatNonStreaming(t *testing.T) {

@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/hkuds/nanobot-go/internal/bus"
+	"github.com/kuiba3/nanobot-go/internal/bus"
 )
 
 // Handler processes a command and returns a reply string (empty to send nothing).

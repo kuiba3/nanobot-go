@@ -10,8 +10,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/hkuds/nanobot-go/internal/security"
-	"github.com/hkuds/nanobot-go/internal/tools"
+	"github.com/kuiba3/nanobot-go/internal/security"
+	"github.com/kuiba3/nanobot-go/internal/tools"
 )
 
 const (

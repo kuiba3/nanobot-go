@@ -1,7 +1,7 @@
 // Package cron provides the "cron" skill documentation.
 package cron
 
-import skills "github.com/hkuds/nanobot-go/skills"
+import skills "github.com/kuiba3/nanobot-go/skills"
 
 func init() { skills.Register(Skill{}) }
 

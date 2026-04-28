@@ -12,10 +12,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/hkuds/nanobot-go/internal/bus"
-	"github.com/hkuds/nanobot-go/internal/provider"
-	"github.com/hkuds/nanobot-go/internal/runner"
-	"github.com/hkuds/nanobot-go/internal/tools"
+	"github.com/kuiba3/nanobot-go/internal/bus"
+	"github.com/kuiba3/nanobot-go/internal/provider"
+	"github.com/kuiba3/nanobot-go/internal/runner"
+	"github.com/kuiba3/nanobot-go/internal/tools"
 )
 
 // Manager spawns background agent runs.

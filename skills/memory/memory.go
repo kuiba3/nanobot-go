@@ -2,7 +2,7 @@
 // the agent how to use the two-layer memory system (MEMORY.md + history.jsonl).
 package memory
 
-import skills "github.com/hkuds/nanobot-go/skills"
+import skills "github.com/kuiba3/nanobot-go/skills"
 
 func init() { skills.Register(Skill{}) }
 

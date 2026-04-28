@@ -1,7 +1,7 @@
 // Package my provides documentation for the "my" self-introspection tool.
 package my
 
-import skills "github.com/hkuds/nanobot-go/skills"
+import skills "github.com/kuiba3/nanobot-go/skills"
 
 func init() { skills.Register(Skill{}) }
 

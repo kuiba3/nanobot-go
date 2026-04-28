@@ -7,7 +7,7 @@ import (
 	"log"
 	"sync"
 
-	"github.com/hkuds/nanobot-go/internal/bus"
+	"github.com/kuiba3/nanobot-go/internal/bus"
 )
 
 // Channel is the contract every ingress/egress integration implements.

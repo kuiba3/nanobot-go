@@ -15,7 +15,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hkuds/nanobot-go/internal/provider"
+	"github.com/kuiba3/nanobot-go/internal/provider"
 )
 
 const anthropicVersion = "2023-06-01"

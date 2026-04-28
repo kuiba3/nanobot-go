@@ -19,9 +19,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hkuds/nanobot-go/channels/base"
-	"github.com/hkuds/nanobot-go/internal/bus"
-	"github.com/hkuds/nanobot-go/internal/loop"
+	"github.com/kuiba3/nanobot-go/channels/base"
+	"github.com/kuiba3/nanobot-go/internal/bus"
+	"github.com/kuiba3/nanobot-go/internal/loop"
 )
 
 const wsGUID = "258EAFA5-E914-47DA-95CA-C5AB0DC85B11"

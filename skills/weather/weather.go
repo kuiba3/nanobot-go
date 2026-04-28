@@ -1,7 +1,7 @@
 // Package weather provides a weather lookup skill via wttr.in / open-meteo.
 package weather
 
-import skills "github.com/hkuds/nanobot-go/skills"
+import skills "github.com/kuiba3/nanobot-go/skills"
 
 func init() { skills.Register(Skill{}) }
 

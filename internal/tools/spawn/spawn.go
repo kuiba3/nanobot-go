@@ -6,7 +6,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/hkuds/nanobot-go/internal/tools"
+	"github.com/kuiba3/nanobot-go/internal/tools"
 )
 
 // Spawner is the bridge to SubagentManager. The loop implements it.

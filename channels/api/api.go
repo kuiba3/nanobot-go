@@ -15,9 +15,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hkuds/nanobot-go/channels/base"
-	"github.com/hkuds/nanobot-go/internal/bus"
-	"github.com/hkuds/nanobot-go/internal/loop"
+	"github.com/kuiba3/nanobot-go/channels/base"
+	"github.com/kuiba3/nanobot-go/internal/bus"
+	"github.com/kuiba3/nanobot-go/internal/loop"
 )
 
 // Options configures the API channel.

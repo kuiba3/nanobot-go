@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hkuds/nanobot-go/internal/consolidator"
-	"github.com/hkuds/nanobot-go/internal/session"
+	"github.com/kuiba3/nanobot-go/internal/consolidator"
+	"github.com/kuiba3/nanobot-go/internal/session"
 )
 
 // AutoCompact is owned by the AgentLoop; it decides when to archive idle

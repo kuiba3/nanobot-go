@@ -12,17 +12,17 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hkuds/nanobot-go/internal/autocompact"
-	"github.com/hkuds/nanobot-go/internal/bus"
-	"github.com/hkuds/nanobot-go/internal/command"
-	"github.com/hkuds/nanobot-go/internal/ctxbuilder"
-	"github.com/hkuds/nanobot-go/internal/hook"
-	"github.com/hkuds/nanobot-go/internal/provider"
-	"github.com/hkuds/nanobot-go/internal/runner"
-	"github.com/hkuds/nanobot-go/internal/session"
-	"github.com/hkuds/nanobot-go/internal/subagent"
-	"github.com/hkuds/nanobot-go/internal/tools"
-	"github.com/hkuds/nanobot-go/internal/tools/message"
+	"github.com/kuiba3/nanobot-go/internal/autocompact"
+	"github.com/kuiba3/nanobot-go/internal/bus"
+	"github.com/kuiba3/nanobot-go/internal/command"
+	"github.com/kuiba3/nanobot-go/internal/ctxbuilder"
+	"github.com/kuiba3/nanobot-go/internal/hook"
+	"github.com/kuiba3/nanobot-go/internal/provider"
+	"github.com/kuiba3/nanobot-go/internal/runner"
+	"github.com/kuiba3/nanobot-go/internal/session"
+	"github.com/kuiba3/nanobot-go/internal/subagent"
+	"github.com/kuiba3/nanobot-go/internal/tools"
+	"github.com/kuiba3/nanobot-go/internal/tools/message"
 )
 
 // Options bundles configuration for the loop.

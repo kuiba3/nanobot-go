@@ -8,8 +8,8 @@ import (
 	"context"
 	"strings"
 
-	"github.com/hkuds/nanobot-go/internal/memory"
-	"github.com/hkuds/nanobot-go/internal/session"
+	"github.com/kuiba3/nanobot-go/internal/memory"
+	"github.com/kuiba3/nanobot-go/internal/session"
 )
 
 // Consolidator archives slices of a session into memory.history.jsonl.

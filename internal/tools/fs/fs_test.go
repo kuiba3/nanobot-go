@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hkuds/nanobot-go/internal/security"
+	"github.com/kuiba3/nanobot-go/internal/security"
 )
 
 func TestReadWriteEdit(t *testing.T) {

@@ -11,7 +11,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/hkuds/nanobot-go/internal/provider"
+	"github.com/kuiba3/nanobot-go/internal/provider"
 )
 
 // Schema is a JSON-schema-like parameter declaration (object shape).
